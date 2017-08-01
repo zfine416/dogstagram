@@ -59,6 +59,28 @@ nav > .flex {
 
 .buttons {
   flex: 1;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.buttons > a {
+  background-image: url(https://www.instagram.com/static/sprites/core/51760f.png);
+  display: inline-block;
+  height: 24px; width: 24px;
+}
+
+.discover {
+  background-position: -156px -375px;
+}
+
+.heart {
+  background-position: -338px -349px;
+}
+
+.profile {
+  background-position: -326px -249px;
 }
 
 /* ---------- END NAVIGATION ------------ */
